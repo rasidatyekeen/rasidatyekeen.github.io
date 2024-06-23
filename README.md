@@ -11,3 +11,14 @@
 **Dashboard Overview:** 
 ![Product](Product.png)
 
+# Project 2
+**Title:** [Vrinda Stores Sales Dashboard](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Vrinda%20Stores%20Sales%20Dashboard.xlsx)
+
+**Tools Used:** Microsoft Excel (Pivot Chat, Pivot tables, Conditional formating, filters, slicers, timelines)
+
+**Project Description:** This project involved analysing product data of Vrinda Stores to identify trends and patterns in sales performance.
+
+**Key findings:**
+
+**Dashboard Overview:** 
+![Vrinda](Vrinda.png)
