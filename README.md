@@ -12,7 +12,7 @@
 ![Product](Product.png)
 
 # Project 2
-**Title:** [Vrinda Stores Sales Dashboard](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Vrinda%20Stores%20Sales%20Dashboard.xlsx)
+**Title:** [Vrinda Stores Sales Dashboard]()
 
 **Tools Used:** Microsoft Excel (Pivot Chat, Pivot tables, Conditional formating, filters, slicers, timelines)
 
