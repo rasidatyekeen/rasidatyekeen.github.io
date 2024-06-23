@@ -124,11 +124,4 @@ ON [dbo].['Employee Info 2$'].EmpID = [dbo].['Employee position$'].EmpID
 WHERE DateOfJoining IS NOT NULL
 
 
---Write a query to retrieve two minimum and maximum salaries from the EmployeePosition table
-SELECT *
-FROM [dbo].['Employee Info 2$']
 
-SELECT *
-FROM [dbo].['Employee position$']
-
-WITH RankedSalaries AS 
