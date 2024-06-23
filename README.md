@@ -22,3 +22,16 @@
 
 **Dashboard Overview:** 
 ![Vrinda](Vrinda.png)
+
+# Project 3
+**Title:** Car Dealer Data Cleansing
+
+**SQL CODE:** [Car Dealer Data queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Car%20dealer%20data)
+
+**SQL SKILLS:** 
+
+**Project Description:** 
+
+**Technology used:** SQL server
+
+
