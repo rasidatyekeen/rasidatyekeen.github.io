@@ -44,3 +44,14 @@
 **Project Description:** 
 
 **Technology used:** SQL server
+
+# Project 5
+**Title:** Pizza Sales Data Cleansing
+
+**SQL CODE:** [Pizza Sales Data queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Car%20Sales%20Data)
+
+**SQL SKILLS:** 
+
+**Project Description:** 
+
+**Technology used:** SQL server
