@@ -1,11 +1,6 @@
 CREATE DATABASE Employee
 
 SELECT *
-FROM [dbo].['Employee Info$']
-
-DROP TABLE [dbo].['Employee Info$']
-
-SELECT *
 FROM [dbo].['Employee Info 2$']
 
 SELECT *
@@ -15,19 +10,19 @@ DELETE FROM [dbo].['Employee position$']
 WHERE EmpID IS NULL
 
 --Write a query to fetch the EmpFname from the EmployeeInfo table in the upper case and use the ALIAS name as EmpName.
-
 SELECT UPPER(EmpFname)
 FROM [dbo].['Employee Info 2$']
 
 
 --Write a query to fetch the number of employees working in the department ‘HR’.
-
 SELECT COUNT(EmpID)
 FROM [dbo].['Employee Info 2$']
 WHERE Department = 'HR'
 
+
 --Write a query to get the current date.
 SELECT CAST(GETDATE() AS DATE) AS CurrentDate
+
 
 --Write a query to retrieve the first four characters of  EmpLname from the EmployeeInfo table.
 SELECT SUBSTRING (EmpLname, 1,4)
@@ -36,12 +31,14 @@ FROM [dbo].['Employee Info 2$']
 SELECT LEFT(EmpLname,4)
 FROM [dbo].['Employee Info 2$']
 
+
 --Write a query to fetch only the place name(string before brackets) from the Address column of EmployeeInfo table.
 SELECT RTRIM(SUBSTRING(Address,1,CHARINDEX('(',address) -1)) AS place_name
 FROM
 [dbo].['Employee Info 2$']
---Write a query to create a new table that consists of data and structure copied from the other table.
 
+
+--Write a query to create a new table that consists of data and structure copied from the other table.
 CREATE VIEW [Employee Information] AS
 SELECT *
 FROM [dbo].['Employee Info 2$'] 
@@ -51,27 +48,27 @@ FROM
 [dbo].[Employee Information]
 
 
-
 --Write q query to find all the employees whose salary is between 50000 to 100000.
 SELECT *
 FROM [dbo].['Employee position$']
 WHERE Salary BETWEEN 50000 AND 100000
+
 
 --Write a query to find the names of employees that begin with ‘S’
 SELECT *
 FROM [dbo].['Employee Info 2$']
 WHERE EmpFname LIKE 'S%'
 
+
 --Write a query to fetch top N records.
 SELECT TOP 5*
 FROM [dbo].['Employee position$']
 ORDER BY Salary DESC
 
+
 --Write a query to retrieve the EmpFname and EmpLname in a single column as “FullName”. The first name and the last name must be separated with space.
 SELECT CONCAT(EmpFname, ' ', EmpLname) AS FullName
 FROM [dbo].['Employee Info 2$']
-
-
 
 
 --Write a query find number of employees whose DOB is between 02/05/1970 to 31/12/1975 and are grouped according to gender
@@ -79,24 +76,31 @@ SELECT COUNT(EmpID)
 FROM [dbo].['Employee Info 2$']
 WHERE DOB BETWEEN 1970-05-02 AND 1975-12-31
 GROUP BY Gender
+
+
 --Write a query to fetch all the records from the EmployeeInfo table ordered by EmpLname in descending order and Department in the ascending order.
 SELECT *
 FROM [dbo].['Employee Info 2$']
 ORDER BY EmpLname DESC, Department ASC
+
+
 --Write a query to fetch details of employees whose EmpLname ends with an alphabet ‘A’ and contains five alphabets.
 SELECT *
 FROM [dbo].['Employee Info 2$']
 WHERE EmpLname LIKE '____A'
+
 
 --Write a query to fetch details of all employees excluding the employees with first names, “Sanjay” and “Sonia” from the EmployeeInfo table.
 SELECT *
 FROM [dbo].['Employee Info 2$']
 WHERE EmpFname NOT IN ('Sanjay','Sonia')
 
+
 --Write a query to fetch details of employees with the address as “DELHI(DEL)”
 SELECT *
 FROM [dbo].['Employee Info 2$']
 WHERE Address = 'Delhi(DEL)'
+
 
 --Write a query to fetch all employees who also hold the managerial position.
 SELECT *
@@ -114,7 +118,8 @@ ORDER BY Employee_count ASC
 --Write a query to feth Male employees in HR department
 SELECT *
 FROM [dbo].['Employee Info 2$']
-WHERE Gender = 'M'
+WHERE Gender = 'M' AND Department = 'HR'
+
 
 --Write a SQL query to retrieve employee details from EmployeeInfo table who have a date of joining in the EmployeePosition table
 SELECT *
@@ -124,4 +129,12 @@ ON [dbo].['Employee Info 2$'].EmpID = [dbo].['Employee position$'].EmpID
 WHERE DateOfJoining IS NOT NULL
 
 
+--Write a query to retrieve two minimum and maximum salaries from the EmployeePosition table
+SELECT TOP 2 Salary AS Minimum_Salaries
+FROM [dbo].['Employee position$']
+ORDER BY Salary ASC
+
+SELECT TOP 2 Salary AS Maximum_Salaries
+FROM [dbo].['Employee position$']
+ORDER BY Salary DESC
 
