@@ -48,7 +48,7 @@
 # Project 5
 **Title:** Pizza Sales Data Cleansing
 
-**SQL CODE:** [Stateside Foods Pizza Data queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Car%20Sales%20Data)
+**SQL CODE:** [Stateside Foods Pizza Data queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Stateside%20Foods%20Pizza)
 
 **SQL SKILLS:** 
 
