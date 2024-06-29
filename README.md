@@ -24,9 +24,9 @@
 ![Vrinda](Vrinda.png)
 
 # Project 3
-**Title:** Car Dealer Data Cleansing
+**Title:** Employee Records Cleansing
 
-**SQL CODE:** [Car Dealer Data queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Car%20dealer%20data)
+**SQL CODE:** [Employee Records queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Employee%20Records)
 
 **SQL SKILLS:** 
 
