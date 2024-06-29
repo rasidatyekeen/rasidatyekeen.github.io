@@ -37,7 +37,7 @@
 # Project 4
 **Title:** Car Sales Data Cleansing
 
-**SQL CODE:** [Car Sales Data queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Car%20dealer%20data)
+**SQL CODE:** [Car Sales Data queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Car%20Sales%20Data)
 
 **SQL SKILLS:** 
 
