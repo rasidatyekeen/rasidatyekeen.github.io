@@ -66,7 +66,7 @@
 **Key findings:**
 
 **Dashboard Overview:** 
-![Product](Watson .png)
+![Product](Watson.png)
 
 # Project 7
 **Title:** [Product Dynamics and Market Performance Dashboard](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Product%20Dynamics%20%26%20Market%20Performance%20Portfolio.pbix)
