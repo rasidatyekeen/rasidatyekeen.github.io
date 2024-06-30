@@ -118,7 +118,7 @@ The Employee Records Cleansing project was undertaken to ensure the accuracy, co
 
 *Data Standardization:*
 
-- Standardized data formats for fields such as phone numbers, addresses, and names to maintain consistency.
+- Standardized data formats for fields such as addresses, and names to maintain consistency.
 - Converted data into appropriate formats where necessary (e.g., date formats, case sensitivity).
 
 *Data Validation and Correction:*
@@ -162,7 +162,51 @@ This project significantly enhanced the quality of the employee data, ensuring t
 
 **SQL SKILLS:** 
 
+*Data Retrieval (SELECT):* Used to query and retrieve specific data from the database.
+
+*Data Filtering (WHERE, HAVING, BETWEEN):* Applied filters to extract only relevant data, including range-based filtering and conditions applied to aggregated data.
+
+*Data Aggregation (GROUP BY):* Performed aggregations to analyze data patterns and summarize data.
+
+*Sorting (ORDER BY, DESC):* Organized query results in a specific order, including descending order, to facilitate analysis.
+
+*Value Identification (MAX):* Identified the maximum values within specific columns.
+
 **Project Description:** 
+The Car Sales Data Cleansing project aimed to enhance the quality, consistency, and reliability of the car sales data stored in the SQL Server database. This project focused on identifying and rectifying common data issues such as duplicates, missing values, and incorrect entries, ensuring the data is accurate and ready for analysis and reporting. Key steps in this project included:
+
+*Data Profiling:*
+
+- Conducted an initial assessment of the car sales data to identify prevalent data quality issues.
+- Analyzed the distribution, range, and patterns within the data to determine the scope of cleansing required.
+
+Data Standardization:
+
+- Standardized data formats for fields such as names to maintain consistency.
+- Converted data into appropriate formats where necessary (e.g., date formats, case sensitivity).
+
+*Data Validation and Correction:*
+
+- Implemented validation checks to identify and correct erroneous data entries.
+- Used SQL functions and conditional logic to handle null values and incorrect data formats.
+
+*Data Retrieval and Aggregation:*
+
+- Used the *SELECT* statement to retrieve specific data from the database.
+- Applied the *WHERE* clause to filter data and extract relevant records.
+- Used the *BETWEEN* clause to filter data within a specific range.
+- Utilized the *GROUP BY* clause to perform aggregations and analyze data patterns.
+- Applied the *HAVING* clause to filter groups of data based on specified conditions.
+- Employed the *MAX* function to identify maximum values within specific columns, such as the highest sales price.
+- Organized query results using the *ORDER BY* clause, including sorting in descending order (*DESC*), to facilitate analysis and reporting.
+
+*Documentation and Reporting:
+
+- Documented the data cleansing process, including the steps taken and the SQL scripts used.
+- Generated reports to summarize the improvements in data quality and the outcomes of the cleansing process.
+
+This project significantly improved the quality of the car sales data, ensuring that it is accurate, reliable, and ready for use in reporting and decision-making processes. The clean data now supports better sales tracking, inventory management, and customer relationship management.
+
 
 **Technology used:** SQL server
 
