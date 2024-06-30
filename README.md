@@ -9,7 +9,7 @@
 **Key findings:**
 
 **Dashboard Overview:** 
-![Product](Product.png)
+![Product](ProductPerformance.png)
 
 # Project 2
 **Title:** [Vrinda Stores Sales Dashboard](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Vrinda%20Stores%20Sales%20Dashboard.xlsx)
@@ -21,7 +21,7 @@
 **Key findings:**
 
 **Dashboard Overview:** 
-![Vrinda](Vrinda.png)
+![Vrinda](VrindaStores.png)
 
 # Project 3
 **Title:** Employee Records Cleansing
