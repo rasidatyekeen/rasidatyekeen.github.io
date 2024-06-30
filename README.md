@@ -57,7 +57,19 @@
 **Technology used:** SQL server
 
 # Project 6
-**Title:** [Watson healthcare Employee Dashboard](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Watson%20healthcare%20Employee%20data.pbix)
+**Title:** [Watson Healthcare Employee Churn Rate](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Watson%20healthcare%20Employee%20data.pbix)
+
+**Tools Used:** PowerBI (Power Query, DAX, Dashboard,ETL Processes, Data Cleaning, Data Transformation,Data Modelling)
+
+**Project Description:** This project involved analysing product data of cookies company to identify trends and patterns in sales performance for 2020.
+
+**Key findings:**
+
+**Dashboard Overview:** 
+![Product](Watson.png)
+
+# Project 7
+**Title:** [Product Dynamics and Market Performance Dashboard](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Watson%20healthcare%20Employee%20data.pbix)
 
 **Tools Used:** PowerBI (Power Query, DAX, Dashboard,ETL Processes, Data Cleaning, Data Transformation,Data Modelling)
 
@@ -67,3 +79,4 @@
 
 **Dashboard Overview:** 
 ![Product](ProductDynamics.png)
+
