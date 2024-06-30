@@ -82,7 +82,7 @@ This dashboard serves as a vital tool for Vrinda Stores' management, delivering 
 # Project 3
 **Title:** Employee Records Cleansing
 
-**SQL CODE:** [Employee Records queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Employee%20Records)
+**SQL Code:** [Employee Records queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Employee%20Records)
 
 **SQL Skills Used:** 
 
@@ -160,9 +160,9 @@ This project significantly enhanced the quality of the employee data, ensuring t
 # Project 4
 **Title:** Car Sales Data Cleansing
 
-**SQL CODE:** [Car Sales Data queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Car%20Sales%20Data)
+**SQL Code:** [Car Sales Data queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Car%20Sales%20Data)
 
-**SQL SKILLS:** 
+**SQL Skills Used:** 
 
 *Data Retrieval (SELECT):* Used to query and retrieve specific data from the database.
 
@@ -215,9 +215,9 @@ This project significantly improved the quality of the car sales data, ensuring 
 # Project 5
 **Title:** Pizza Sales Data Cleansing
 
-**SQL CODE:** [Stateside Foods Pizza Data queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Stateside%20Foods%20Pizza)
+**SQL Code:** [Stateside Foods Pizza Data queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Stateside%20Foods%20Pizza)
 
-**SQL SKILLS:** 
+**SQL Skills Used:** 
 
 *Data Retrieval (SELECT):* Used to query and retrieve specific data from the database.
 
