@@ -84,9 +84,74 @@ This dashboard serves as a vital tool for Vrinda Stores' management, delivering 
 
 **SQL CODE:** [Employee Records queries](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Employee%20Records)
 
-**SQL SKILLS:** 
+**SQL Skills Used:** 
+
+*Data Retrieval (SELECT):* Used to query and retrieve specific data from the database.
+
+*Data Filtering (WHERE, HAVING):* Applied filters to extract only relevant data.
+
+*Data Aggregation (GROUP BY, COUNT):* Performed aggregations to analyze data patterns.
+
+*Data Cleaning (UPDATE, DELETE):* Corrected and removed inaccurate or duplicate data.
+
+*Data Validation (CASE, ISNULL):* Ensured data integrity by handling null values and applying conditional logic.
+
+*Joins (INNER JOIN, LEFT JOIN, RIGHT JOIN):* Combined data from multiple tables for comprehensive analysis.
+
+*Subqueries and CTEs:* Used for complex queries and to improve readability and maintainability of SQL code.
+
+*String Manipulation and Pattern Matching (LIKE, WILDCARDS, CONCAT, SUBSTRING):* Performed operations to search for patterns within text fields and combined strings for data standardization and reporting purposes.
+
+*Data Type Conversion (CAST):* Converted data types to ensure compatibility and accuracy in data processing.
+
+*Date and Time Functions (GETDATE):* Managed and manipulated date and time data for time-based operations and reporting.
 
 **Project Description:** 
+
+Project Description:
+The Employee Records Cleansing project was undertaken to ensure the accuracy, consistency, and completeness of the employee data stored in the SQL Server database. The primary goal was to identify and rectify any issues within the employee records, including duplicates, missing values, and incorrect data entries. This project involved several key steps:
+
+*Data Profiling:*
+
+- Conducted an initial assessment of the employee records to identify common data quality issues.
+- Analyzed the distribution, range, and patterns within the data to understand the extent of the cleansing required.
+
+*Data Standardization:*
+
+- Standardized data formats for fields such as phone numbers, addresses, and names to maintain consistency.
+- Converted data into appropriate formats where necessary (e.g., date formats, case sensitivity).
+
+*Data Validation and Correction:*
+
+- Implemented validation checks to identify and correct erroneous data entries.
+- Used SQL functions and conditional logic to handle null values and incorrect data formats.
+
+*String Manipulation and Functions:*
+
+- Used wildcards and the *LIKE* operator to identify records matching specific patterns.
+- Employed the *CONCAT* function to combine string fields for standardized reporting and data integration.
+- Utilized *SUBSTRING* to extract specific parts of text fields for accurate data representation.
+
+*Data Type Conversion:*
+
+- Applied the *CAST* function to convert data types, ensuring consistency and accuracy in data processing.
+
+*Date and Time Functions:*
+
+- Utilized the *GETDATE* function to retrieve current date and time for time-based data operations and validation.
+
+*Data Integrity:*
+
+- Ensured referential integrity by verifying relationships between tables.
+- Updated or deleted records that violated integrity constraints to maintain data consistency.
+
+*Documentation and Reporting:*
+
+- Documented the data cleansing process, including the steps taken and the SQL scripts used.
+- Generated reports to summarize the improvements in data quality and the outcomes of the cleansing process.
+
+This project significantly enhanced the quality of the employee data, ensuring that it is accurate, reliable, and ready for use in reporting and decision-making processes. The clean data now supports better HR management, payroll processing, and compliance reporting.
+
 
 **Technology used:** SQL server
 
