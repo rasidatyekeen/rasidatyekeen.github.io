@@ -88,6 +88,8 @@ This dashboard serves as a vital tool for Vrinda Stores' management, delivering 
 
 *Data Retrieval (SELECT):* Used to query and retrieve specific data from the database.
 
+*Data Source Specification (FROM):* Defined the tables from which the data was retrieved.
+
 *Data Filtering (WHERE, HAVING):* Applied filters to extract only relevant data.
 
 *Data Aggregation (GROUP BY, COUNT):* Performed aggregations to analyze data patterns.
@@ -217,7 +219,49 @@ This project significantly improved the quality of the car sales data, ensuring 
 
 **SQL SKILLS:** 
 
+*Data Retrieval (SELECT):* Used to query and retrieve specific data from the database.
+
+*Data Aggregation (SUM, COUNT):* Calculated the total sales, quantities, and counted records to analyze data patterns.
+
+*Data Filtering (WHERE, BETWEEN, IN, AND):* Applied filters to extract relevant data, including range-based and list-based filtering.
+
+*Data Source Specification (FROM):* Defined the tables from which the data was retrieved.
+
 **Project Description:** 
+
+The Pizza Sales Data Cleansing project for Stateside Foods aimed to improve the quality, consistency, and reliability of the sales data stored in the SQL Server database. The project focused on identifying and rectifying common data issues such as duplicates, missing values, and incorrect entries, ensuring the data is accurate and ready for analysis and reporting. Key steps in this project included:
+
+*Data Profiling:*
+
+- Conducted an initial assessment of the pizza sales data to identify common data quality issues.
+- Analyzed the distribution, range, and patterns within the data to determine the extent of cleansing required.
+
+*Data Standardization:*
+
+- Standardized data formats for fields, such as order IDs, to maintain consistency.
+- Converted data into appropriate formats where necessary (e.g., date formats, case sensitivity).
+
+*Data Validation and Correction:*
+
+- Implemented validation checks to identify and correct erroneous data entries.
+- Used SQL functions and conditional logic to handle null values and incorrect data formats.
+
+*Data Retrieval and Aggregation:*
+
+- Used the *SELECT* statement to retrieve specific data from the database.
+- Applied the *WHERE* clause to filter data and extract relevant records.
+- Used the *BETWEEN* clause to filter data within a specific range (e.g., date ranges for sales).
+- Used the *COUNT* function to count records, such as the number of orders, for statistical analysis.
+- Applied the *IN* clause to filter data based on a list of values, enhancing the precision of data retrieval.
+- Employed the *SUM* function to calculate total prices and quantities, providing insights into sales performance.
+- Combined conditions using the *AND* operator to refine data extraction and analysis.
+
+*Documentation and Reporting:*
+
+- Documented the data cleansing process, including the steps taken and the SQL scripts used.
+- Generated reports to summarize the improvements in data quality and the outcomes of the cleansing process.
+
+This project significantly enhanced the quality of the pizza sales data, ensuring that it is accurate, reliable, and ready for use in reporting and decision-making processes. The clean data now supports better sales tracking, inventory management, and customer relationship management for Stateside Foods.
 
 **Technology used:** SQL server
 
