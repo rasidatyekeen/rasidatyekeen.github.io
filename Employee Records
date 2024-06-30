@@ -10,7 +10,7 @@ DELETE FROM [dbo].['Employee position$']
 WHERE EmpID IS NULL
 
 --Write a query to fetch the EmpFname from the EmployeeInfo table in the upper case and use the ALIAS name as EmpName.
-SELECT UPPER(EmpFname)
+SELECT UPPER(EmpFname) AS EmpName
 FROM [dbo].['Employee Info 2$']
 
 
