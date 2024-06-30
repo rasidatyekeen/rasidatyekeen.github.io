@@ -69,7 +69,7 @@
 ![Product](Watson.png)
 
 # Project 7
-**Title:** [Product Dynamics and Market Performance Dashboard](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Watson%20healthcare%20Employee%20data.pbix)
+**Title:** [Product Dynamics and Market Performance Dashboard](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Product%20Dynamics%20%26%20Market%20Performance%20Portfolio.pbix)
 
 **Tools Used:** PowerBI (Power Query, DAX, Dashboard,ETL Processes, Data Cleaning, Data Transformation,Data Modelling)
 
