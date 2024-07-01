@@ -2,7 +2,7 @@
 # Project 1
 **Title:** [Product Performance Dashboard](https://github.com/rasidatyekeen/rasidatyekeen.github.io/blob/main/Product%20Performance%20Dashboard.xlsx)
 
-**Tools Used:** Microsoft Excel (Pivot Chart, Pivot tables, Power Query, Conditional formating, filters, slicers, timelines)
+**Tools Used:** Microsoft Excel (Pivot Chart, Pivot tables, Conditional formating, filters, slicers, timelines)
 
 **Project Description:** This project involved analysing product data of cookies company to identify trends and patterns in sales performance for 2020. It is designed to provide a comprehensive overview of key performance metrics. This dashboard allows stakeholders to easily monitor and analyze the company's performance across different regions, products, and time periods. The dashboard includes the following features:
 
@@ -270,9 +270,47 @@ This project significantly enhanced the quality of the pizza sales data, ensurin
 
 **Tools Used:** PowerBI (Power Query, DAX, Dashboard,ETL Processes, Data Cleaning, Data Transformation,Data Modelling)
 
-**Project Description:** This project involved analysing product data of cookies company to identify trends and patterns in sales performance for 2020.
+**Project Description:** 
+
+The Watson Healthcare Employee Churn Rate Dashboard project aimed to provide a comprehensive overview of employee retention and turnover patterns within the organization. The dashboard was designed to help HR managers and business leaders understand the factors influencing employee churn and identify potential areas for improvement. Key features of the dashboard include:
+
+*Employee Demographics:*
+
+Displayed total employees, male employees, and female employees to provide a snapshot of the workforce composition.
+
+*Churn Rate Analysis:*
+
+- By Marital Status: Visualized churn rates segmented by marital status to determine if marital status impacts employee turnover.
+-  Work-Life Balance: Analyzed churn rates based on employees' self-reported work-life balance to identify if work-life balance issues contribute to turnover.
+- By Income Range: Examined churn rates across different income ranges to assess if compensation levels affect employee retention.
+-  Overtime: Investigated churn rates among employees who work overtime to see if excessive overtime correlates with higher turnover.
+- By Job Satisfaction: Evaluated churn rates based on job satisfaction levels to understand if job satisfaction impacts employee retention.
+
+*Gender-Based Analysis:*
+
+- Male Employees by Job Role: Showcased the distribution of male employees across various job roles to identify any gender-specific trends.
+- Female Employees by Job Role: Displayed the distribution of female employees across different job roles to highlight gender diversity within the organization.
+
+*Interactive Slicers and Timeline:*
+
+- Job Level: Allowed users to filter data by different job levels to see how turnover varies across hierarchical positions.
+- Business Travel: Enabled filtering based on business travel frequency to assess its impact on churn rates.
+- Department: Provided the ability to filter data by department to identify department-specific churn trends.
+- Gender: Allowed users to filter data by gender to analyze churn rates and demographics for male and female employees separately.
+- Age: Included an age filter to examine churn rates and demographics across different age groups.
+
 
 **Key findings:**
+
+*Marital Status Impact:* Single employees had a higher churn rate compared to married employees, indicating that marital status might influence retention.
+
+*Overtime and Churn:* Employees working significant overtime showed higher churn rates, pointing towards potential burnout issues.
+
+*Gender and Job Role:* The distribution of male and female employees across job roles revealed potential gender disparities in certain roles, suggesting areas for diversity improvement.
+
+*Department-Specific Trends:* Certain departments had higher churn rates than others, highlighting the need for department-specific retention strategies.
+
+This Power BI dashboard provided valuable insights into employee churn at Watson Healthcare, enabling data-driven decision-making to enhance employee retention and overall organizational health.
 
 **Dashboard Overview:** 
 ![Product](Watson.png)
@@ -282,9 +320,46 @@ This project significantly enhanced the quality of the pizza sales data, ensurin
 
 **Tools Used:** PowerBI (Power Query, DAX, Dashboard,ETL Processes, Data Cleaning, Data Transformation,Data Modelling)
 
-**Project Description:** This project involved analysing product data of cookies company to identify trends and patterns in sales performance for 2020.
+**Project Description:** 
+
+The Product Dynamics and Market Performance Dashboard was designed to provide a comprehensive view of the sales and revenue performance across different dimensions for the company. This interactive dashboard aimed to assist business leaders and sales managers in understanding market trends, identifying high-performing products, and making data-driven decisions to optimize sales strategies. Key features of the dashboard include:
+
+*Revenue Analysis:*
+
+- Total Revenue by Payment Methods: Visualized the distribution of revenue across different payment methods to understand customer preferences and optimize payment options.
+- Total Revenue: Provided a snapshot of the overall revenue generated by the company.
+
+*Sales Metrics:*
+
+- Total Units Sold: Displayed the total number of units sold, offering insight into product demand.
+- Total Revenue per Region: Showcased the revenue generated from different regions to identify regional performance and market penetration.
+- Sales by Category: Analyzed sales data across various product categories to highlight category performance and customer preferences.
+
+*Time-Based Sales Analysis:*
+
+- Monthly Sales per Region: Tracked sales trends over time within each region to identify seasonal patterns and regional sales dynamics.
+- Total Sales per Product: Detailed the sales performance of individual products, helping to identify top-selling and underperforming products.
+
+*Interactive Slicers:*
+
+- Payment Method: Allowed users to filter data based on different payment methods to analyze revenue and sales trends specific to each method.
+- Year, Quarter, Month: Enabled time-based filtering to examine sales and revenue trends over specific periods.
+- Product Category: Provided the ability to filter data by product categories to focus on specific segments.
+- Region: Allowed users to filter data by region to analyze regional performance and market dynamics.
 
 **Key findings:**
+
+*Payment Method Preferences:* Credit Card payment method contributed significantly more to total revenue, suggesting a preference among customers that could inform payment strategy optimizations.
+
+*Regional Performance:* North America consistently outperformed others in terms of revenue, indicating strong market presence and opportunities for focused marketing efforts. Monthly sales trends also revealed specific periods with peak sales in certain regions, pointing to seasonal demand variations.
+
+*Product Category Insights:* Electronics product categories generated higher sales volumes, highlighting areas for potential product development and targeted marketing campaigns. Categories with lower sales performance were also identified, suggesting a need for reevaluation or promotional strategies.
+
+*Time-Based Sales Trends:* Quarterly and monthly sales analysis revealed growth trends and seasonal patterns, aiding in forecasting and inventory planning. Sales spikes during certain periods also indicated successful promotions or external factors influencing demand.
+
+*Product Performance:* Top-performing products, such as Canon EOS, were identified, providing insights into customer preferences and successful product features. Underperforming products, such as the iPhone 14 Pro, highlighted potential areas for improvement, discontinuation, or targeted promotions.
+
+This Power BI dashboard provided an in-depth analysis of the company's sales and revenue performance, enabling stakeholders to make informed decisions to enhance market strategy, optimize product offerings, and drive business growth.
 
 **Dashboard Overview:** 
 ![Product](ProductDynamics.png)
